@@ -1,0 +1,31 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "demo for nodejs & neo4j",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Just a demo page\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigmumet/nodejs-neo4j-demo.git"
+  },
+  "keywords": [
+    "nodejs",
+    "neo4j"
+  ],
+  "author": "makara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bigmumet/nodejs-neo4j-demo/issues"
+  },
+  "homepage": "https://github.com/bigmumet/nodejs-neo4j-demo#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "express": "^4.14.0",
+    "neo4j": "2.0.0-RC2",
+    "promise": "^7.1.1",
+    "q": "^1.4.1",
+    "request": "^2.74.0"
+  }
+}
